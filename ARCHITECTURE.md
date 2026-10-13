@@ -21,7 +21,7 @@ Orbitalis is a standalone static Three.js application. Pelagia is its default sc
 - `tests/`: focused suites with shared fixtures in `tests/helpers/` and baseline glTF data in `tests/fixtures/`.
 - `.github/workflows/pages.yml`: builds and publishes the same source to GitHub Pages.
 
-All browser asset references are relative to the document directory. They support both a root deployment and `/Orbitalis/`. Model chunks are served from the same origin, never directly fetched from Release URLs by the browser.
+All browser asset references are relative to the document directory. They support both a root deployment and `/Orbitalis/`. Model chunks are served from the same origin, never directly fetched from Release URLs by the browser. The Pages build job reads existing Pages configuration; only the deploy job has write and OIDC permissions.
 
 ## Resource boundary
 
