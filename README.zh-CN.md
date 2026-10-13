@@ -2,7 +2,7 @@
 
 基于 Three.js 与 TypeScript 的交互星球与环形空间站。默认场景名为 **Pelagia**。
 
-[在线演示](https://winrisef.github.io/Orbitalis/) · [下载 v0.1.0](https://github.com/WinriseF/Orbitalis/releases/tag/v0.1.0) · [English](README.md)
+[在线演示](https://winrisef.github.io/Orbitalis/) · [下载](https://github.com/WinriseF/Orbitalis/releases/latest) · [English](README.md)
 
 ![Pelagia 场景](public/media/cinematic/planet_fallback.webp)
 

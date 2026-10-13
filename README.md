@@ -2,7 +2,7 @@
 
 An interactive storm planet and detailed orbital ring station, built with Three.js and TypeScript. **Pelagia** is the default scene.
 
-[Live demo](https://winrisef.github.io/Orbitalis/) · [Downloads](https://github.com/WinriseF/Orbitalis/releases/tag/v0.1.0) · [中文说明](README.zh-CN.md)
+[Live demo](https://winrisef.github.io/Orbitalis/) · [Downloads](https://github.com/WinriseF/Orbitalis/releases/latest) · [中文说明](README.zh-CN.md)
 
 ![Pelagia scene](public/media/cinematic/planet_fallback.webp)
 
