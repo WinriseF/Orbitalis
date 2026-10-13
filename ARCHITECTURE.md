@@ -17,7 +17,7 @@ Orbitalis is a standalone static Three.js application. Pelagia is its default sc
 - `scripts/download-assets.mjs`: downloads the fixed archive, verifies it, extracts via `tar` and checks every model chunk.
 - `scripts/build.mjs`: copies public assets and bundles into a fresh `dist/`; source never depends on existing output.
 - `scripts/dev.mjs`, `scripts/serve.mjs`: rebuild TypeScript and serve localhost.
-- `scripts/check.mjs`: inherited static/model checks, detached from private hosting metadata.
+- `scripts/check.mjs`: inherited static/model checks, including asset paths and required control IDs, detached from private hosting metadata.
 - `tests/`: focused suites with shared fixtures in `tests/helpers/` and baseline glTF data in `tests/fixtures/`.
 - `.github/workflows/pages.yml`: builds and publishes the same source to GitHub Pages.
 

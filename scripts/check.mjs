@@ -93,7 +93,7 @@ for (const [, url] of html.matchAll(/(?:src|href)="(\.\/[^"#]*)"/g)) assert.ok(e
 assert.ok(html.includes('lang="zh-CN"'))
 assert.ok(html.includes('./media/cinematic/planet_fallback.webp'))
 assert.ok(!html.includes('/media/lunar-core/'))
-for (const [, url] of html.matchAll(/(?:src|href)="(\.\/[^"#]*)"/g)) assert.ok(existsSync(resolve('dist', url)), `Missing asset: ${url}`)
+for (const id of ['lunar-surface','lunar-canvas','lunar-poster','rotation-toggle','reset-view','scene-status','scene-mode','rotation-label','rotation-icon','instructions','scene-resolution','zoom-in','zoom-out','zoom-level']) assert.equal([...html.matchAll(new RegExp(`id="${id}"`, 'g'))].length, 1, id)
 const meta = JSON.parse(text('bundle-meta.json'))
 for (const [path, output] of Object.entries(meta.outputs)) {
   assert.ok(existsSync(path), `Missing bundle ${path}`)
