@@ -1,0 +1,32 @@
+{
+  "name": "orbitalis",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs",
+    "setup:assets": "node scripts/download-assets.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "three": "0.184.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.5",
+    "typescript": "5.9.3",
+    "@types/three": "0.184.0",
+    "vitest": "4.1.10"
+  },
+  "license": "MIT",
+  "description": "Interactive storm planet and independently rotating orbital ring station.",
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WinriseF/Orbitalis.git"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v4.3.47",
+    "version": "2.0"
+  },
+  "extensionsUsed": [
+    "KHR_materials_specular"
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Planet only",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Planet_Core",
+      "mesh": 0
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0.04500000178813934,
+        0.04500000178813934,
+        0.04500000178813934
+      ],
+      "emissiveTexture": {
+        "index": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0.2800000011920929
+        }
+      },
+      "name": "Planet_Baked_Color",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.9200000166893005
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Sphere.003",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ],
+  "images": [
+    {
+      "bufferView": 5,
+      "mimeType": "image/png",
+      "name": "planet_basecolor"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 8383,
+      "max": [
+        5.049997329711914,
+        5.050000190734863,
+        5.049995422363281
+      ],
+      "min": [
+        -5.049994468688965,
+        -5.050000190734863,
+        -5.050000190734863
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 8383,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 8383,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 8383,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 48384,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 100596,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 100596,
+      "byteOffset": 100596,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 67064,
+      "byteOffset": 201192,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 134128,
+      "byteOffset": 268256,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96768,
+      "byteOffset": 402384,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 48297245,
+      "byteOffset": 499152
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 48796400
+    }
+  ]
+}
